@@ -3,12 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Quizz JS</title>
 </head>
 
 <body>
- 
+    
+    <h1>Quizz Mangas</h1>
+
+    <div class="container-global">
+        
+        <form class="form-quizz">
+
+            <div class="question-block">
+                <h4>Comment s'appelle les 3 androids les plus populaire ?</h4>
+
+
+                <div>
+                    <input type=radio id="C17" name="q1" value="a" checked>
+                    <label for="C17">C16, C17 & C18 </label>
+                </div>
+                <div>
+                    <input type=radio id="C19" name="q1" value="b" >
+                    <label for="C19">C19, C20, Super C17 </label>
+                </div>
+                <div>
+                    <input type=radio id="Cell" name="q1" value="c" >
+                    <label for="Cell">Cell & Dr Gero</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Qui réussit à vaincre Radditz ?</h4>
+
+
+                <div>
+                    <input type=radio id="Sangoku" name="q2" value="a" checked>
+                    <label for="Sangoku">Sangoku</label>
+                </div>
+                <div>
+                    <input type=radio id="Piccolo" name="q2" value="b" >
+                    <label for="Piccolo">Piccolo </label>
+                </div>
+                <div>
+                    <input type=radio id="Sangohan" name="q2" value="c" >
+                    <label for="Sangohan">SanGohan</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Comment s'appelle le fils de Naruto ?</h4>
+
+
+                <div>
+                    <input type=radio id="Shikadai" name="q3" value="a" checked>
+                    <label for="Shikadai">Shikadai</label>
+                </div>
+                <div>
+                    <input type=radio id="Boruto" name="q3" value="b" >
+                    <label for="Boruto">Boruto</label>
+                </div>
+                <div>
+                    <input type=radio id="Haruma" name="q3" value="c" >
+                    <label for="Haruma">Haruma</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Quel est la nature de chakra de Sasuke ?</h4>
+
+
+                <div>
+                    <input type=radio id="Doton" name="q4" value="a" checked>
+                    <label for="Doton">Doton</label>
+                </div>
+                <div>
+                    <input type=radio id="Fuiton" name="q4" value="b" >
+                    <label for="Fuiton">Fuiton</label>
+                </div>
+                <div>
+                    <input type=radio id="Raiton" name="q4" value="c" >
+                    <label for="Raiton">Raiton</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Ton anime préférè ? ( la dictature impose une seul bonne réponse ) </h4>
+
+
+                <div>
+                    <input type=radio id="Dragon" name="q5" value="a" checked>
+                    <label for="Dragon">Dragon Ball</label>
+                </div>
+                <div>
+                    <input type=radio id="Naruto" name="q5" value="b" >
+                    <label for="Naruto">Naruto</label>
+                </div>
+                <div>
+                    <input type=radio id="Bleach" name="q5" value="c" >
+                    <label for="Bleach">Bleach</label>
+                </div>
+            </div>
+
+            <button type="submit">Validez Vos Choix ! </button>
+
+            <div class="resultats">
+                <h2>Cliquez Sur Valider pour voir les résultats.</h2>
+                <p class="aide"></p>
+                <p class="note"></p>
+            </div>
+
+        </form>
+
+    </div>
 
    
     <script src="app.js"></script>
